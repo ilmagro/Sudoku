@@ -1,4 +1,4 @@
-# Summary
+## Summary
 The goal of this repository is to implement a Sudoku solver in C.
 The strategy used is [**recursion** with **backtracking** and **cutoff**](sudoku.c#L185-190)
 if the user does not want to explore further solutions.
