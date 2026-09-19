@@ -1,5 +1,4 @@
 # Summary
-
 The goal of this repository is to implement a Sudoku solver in C.
 The strategy used is [**recursion** with **backtracking** and **cutoff**](sudoku.c#L185-190)
 if the user does not want to explore further solutions.
@@ -17,3 +16,7 @@ Usage: <program\_name> <input_file>
 - a C compiler (like GCC)
 
 Note: a POSIX-compatible system is not required.
+
+## Further directions
+A system formed by a segmentation layer plus an OCR will be used to create a sudoku template
+from an image or a camera device.
