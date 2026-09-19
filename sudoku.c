@@ -60,7 +60,7 @@ static int load_grid(int grid[9][9], FILE *infile) {
                 ++i;
             } else {
                 fprintf(stderr, "Error: character %c found, "
-                        "use [1-9] for numbers and [.0Oo] for spaces\n", c);
+                        "use [1-9] for numbers and [.0Oo] for unknowns\n", c);
                 return -1;
             }
 
