@@ -15,7 +15,7 @@ Usage: <program\_name> <input_file>
 - Make
 - a C compiler (like GCC)
 
-Note: a POSIX-compatible system is not required.
+Note: a POSIX-compliant system is not required.
 
 ## Further developments
 A system formed by a segmentation layer plus an OCR will be used to create a sudoku template
