@@ -17,6 +17,11 @@ Usage: <program\_name> <input_file>
 
 Note: a POSIX-compatible system is not required.
 
-## Further directions
+## Further developments
 A system formed by a segmentation layer plus an OCR will be used to create a sudoku template
 from an image or a camera device.
+
+## Acknowledgements
+The algorithm takes inspiration from the famous video
+(Python Sudoku Solver - Computerphile)[https://www.youtube.com/watch?v=G_UYXzGuqvM]
+by (Dr. Thorsten Altenkirch)[https://en.wikipedia.org/wiki/Thorsten_Altenkirch].
