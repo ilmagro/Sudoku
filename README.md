@@ -23,5 +23,5 @@ from an image or a camera device.
 
 ## Acknowledgements
 The algorithm takes inspiration from the famous video
-(Python Sudoku Solver - Computerphile)[https://www.youtube.com/watch?v=G_UYXzGuqvM]
-by (Dr. Thorsten Altenkirch)[https://en.wikipedia.org/wiki/Thorsten_Altenkirch].
+[Python Sudoku Solver - Computerphile](https://www.youtube.com/watch?v=G_UYXzGuqvM)
+by [Dr. Thorsten Altenkirch](https://en.wikipedia.org/wiki/Thorsten_Altenkirch).
