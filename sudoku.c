@@ -167,7 +167,9 @@ static int check_answer() {
 
     string_tolower(answer);
 
-    if ((strcmp(answer, "yes") == 0 && len == 3) || strcmp(answer, "y") == 0)
+    if ((strcmp(answer, "yes") == 0 && len == 3) ||
+        strcmp(answer, "y") == 0 ||
+        strcmp(answer, "") == 0)
         return 0;
 
     return 1;
