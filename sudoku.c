@@ -7,7 +7,7 @@
 /* Assume: string != NULL */
 static void string_tolower(char *string) {
     while (*string) {
-        *string = (char)tolower((unsigned char)*string);
+        *string = tolower((unsigned char)*string);
         ++string;
     }
 }
@@ -142,7 +142,7 @@ static int legal(int grid[9][9], int x, int y, int n) {
     return 1;
 }
 
-static int check_answer() {
+static int check_answer(void) {
     char answer[5];
     size_t len;
 
